@@ -39,7 +39,7 @@ with open(r'C:\Users\prana\Downloads\phones\data.json','r')as f:
                         b = float(a.replace(',', ""))
                         c = math.floor(b * 90.48)
                         # inr = f'{i["phone_brand"]}--{i["phone_model"]}--₹{c}'
-                        inr = {'phone_brand': i["phone_brand"], 'phone_model': i["phone_model"],'price': j}
+                        inr = {'phone_brand': i["phone_brand"], 'phone_model': i["phone_model"],'price': c}
                         new.append(inr)
                         # print(inr)
                         break
@@ -48,7 +48,7 @@ with open(r'C:\Users\prana\Downloads\phones\data.json','r')as f:
                         b = float(a.replace(',', ""))
                         c = math.floor(b *84.35)
                         # inr = f'{i["phone_brand"]}--{i["phone_model"]}--₹{c}'
-                        inr = {'phone_brand': i["phone_brand"], 'phone_model': i["phone_model"],'price': j}
+                        inr = {'phone_brand': i["phone_brand"], 'phone_model': i["phone_model"],'price': c}
                         # print(inr)
                         new.append(inr)
                         break
